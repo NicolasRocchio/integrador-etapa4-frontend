@@ -1,0 +1,36 @@
+h1 {
+  margin-left: 3rem;
+}
+h2 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+.alta-form {
+  text-align: center;
+  padding: 50px 0;
+  background-image: linear-gradient(to bottom right, #00b894, #55efc4);
+  border-collapse: collapse;
+  width: 95%;
+  margin: 1rem auto;
+
+  form {
+    display: inline-block;
+    text-align: left;
+    max-width: 500px;
+    width: 100%;
+
+    input,
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+  }
+}
